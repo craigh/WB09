@@ -1,0 +1,16 @@
+<div class="news_past_block">
+<!--[*  $Id: news_block_past.htm 25080 2008-12-17 09:15:43Z mateo $  *]-->
+
+<!--[foreach from=$news item='news' key='date']-->
+<h5><!--[$date|pndate_format:'%B %d']--></h5>
+<ul>
+	<!--[foreach from=$news item='article']-->
+		<li>
+			<!--[$article.preformat.title]-->
+			<!--[if isset($article.info.commentcount)]-->&nbsp;(<!--[$article.info.commentcount]-->)<!--[/if]-->
+		</li>
+	<!--[/foreach]-->
+</ul>
+<!--[/foreach]-->
+<p><strong><a href="<!--[pnmodurl modname="News" func="archives"]-->">>>>To News Archive</a></strong></p>
+</div>

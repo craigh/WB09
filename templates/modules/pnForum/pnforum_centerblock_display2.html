@@ -1,0 +1,25 @@
+<!--[*  $Id: pnforum_centerblock_display2.html 503 2006-03-11 13:56:52Z landseer $  *]-->
+
+<!--[ readlastposts forum_id=$forum_id maxposts=$maxposts ]-->
+<!--[ if $lastpostcount > 0 ]-->
+<table width="100%" border="0" cellpadding="3" cellspacing="1" class="pnForum_centerblock">
+    <tr>
+        <td colspan="3" bgcolor="<!--[ $bgcolor2 ]-->">
+            <strong><!--[ $lastpostcount ]-->&nbsp;<!--[ pnml name='_PNFORUM_CB_RECENTPOSTS' ]--></strong>
+        </td>
+    </tr>
+    <!--[ foreach item=lastpost from=$lastposts ]-->
+    <tr>
+        <td bgcolor="<!--[ $bgcolor1 ]-->">
+            <a href="<!--[ $lastpost.last_post_url_anchor ]-->"><!--[ $lastpost.topic_title ]--></a>
+        </td>
+        <td bgcolor="<!--[ $bgcolor1 ]-->">
+            <!--[ $lastpost.posted_time ]--><br />
+        </td>
+        <td bgcolor="<!--[ $bgcolor1 ]-->">
+            <!--[ $lastpost.poster_name|profilelink ]-->
+        </td>
+    </tr>
+    <!--[ /foreach ]-->
+</table>
+<!--[ /if ]-->
