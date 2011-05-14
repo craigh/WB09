@@ -15,8 +15,8 @@
  * Smarty function to insert AddThis button
  * 
  * Example
- *   <!--[wbaddthis url="" title=""]-->
- *   <!--[wbaddthis url="" title="" assign="varname"]-->
+ *   {wbaddthis url="" title=""}
+ *   {wbaddthis url="" title="" assign="varname"}
  * 
  * @author		 Craig Heydenburg
  * @since        3/20/2009

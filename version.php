@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = "WB09";
 $themeversion['displayname'] = "WB09";
-$themeversion['version'] = '1.0';
+$themeversion['version'] = '2.0';
 $themeversion['description'] = "based heavily on emplode by Charlie @arcsin";
 $themeversion['author'] = 'Arcsin, Xanthia by Charlie and Craig';
 $themeversion['contact'] = 'http://www.westernbands.net';

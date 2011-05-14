@@ -15,8 +15,8 @@
  * Smarty function to return PM status and information
  * 
  * Example
- *   <!--[getWBpm]-->
- *   <!--[getWBpm assign="varname"]-->
+ *   {getWBpm}
+ *   {getWBpm assign="varname"}
  * 
  * @author		 Craig Heydenburg
  * @since        3/10/2009

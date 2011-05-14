@@ -15,8 +15,8 @@
  * Smarty function to insert Tell a Friend button
  * 
  * Example
- *   <!--[wbtellafriend url="" title=""]-->
- *   <!--[wbtellafriend url="" title="" assign="varname"]-->
+ *   {wbtellafriend url="" title=""}
+ *   {wbtellafriend url="" title="" assign="varname"}
  * 
  * @author		 Craig Heydenburg
  * @since        3/20/2009

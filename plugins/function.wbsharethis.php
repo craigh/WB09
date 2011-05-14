@@ -15,8 +15,8 @@
  * Smarty function to insert AddThis button
  * 
  * Example
- *   <!--[wbsharethis url="" title=""]-->
- *   <!--[wbsharethis url="" title="" assign="varname"]-->
+ *   {wbsharethis url="" title=""}
+ *   {wbsharethis url="" title="" assign="varname"}
  * 
  * @author		 Craig Heydenburg
  * @since        3/20/2009
