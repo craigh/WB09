@@ -7,8 +7,8 @@
 <meta name="ROBOTS" content="INDEX,FOLLOW"/>
 <meta name="resource-type" content="document"/>
 <meta http-equiv="expires" content="0"/>
-<meta name="author" content="{sitename}"/>
-<meta name="copyright" content="Copyright (c) 2009 by {sitename}"/>
+<meta name="author" content="{$modvars.ZConfig.sitename}"/>
+<meta name="copyright" content="Copyright (c) 2009 by {$modvars.ZConfig.sitename}"/>
 <meta name="revisit-after" content="1 days"/>
 <meta name="distribution" content="Global"/>
 <meta name="generator" content="zikula - http://zikula.com"/>
@@ -82,7 +82,7 @@
 	<div class="center_wrapper">
 
 		<div class="left">
-			Copyright &copy; 2001-{'Y'|date} {sitename} - {slogan}
+			Copyright &copy; 2001-{'Y'|date} {$modvars.ZConfig.sitename} - {$modvars.ZConfig.slogan}
 		</div>
 		<div class="right">
 			<a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a>&nbsp;Zikula Theme by<a href="http://www.postnuke-themes.de"> Charlie</a>

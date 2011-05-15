@@ -7,8 +7,8 @@
 <meta name="ROBOTS" content="INDEX,FOLLOW"/>
 <meta name="resource-type" content="document"/>
 <meta http-equiv="expires" content="0"/>
-<meta name="author" content="{sitename}"/>
-<meta name="copyright" content="Copyright (c) 2009 by {sitename}"/>
+<meta name="author" content="{$modvars.ZConfig.sitename}"/>
+<meta name="copyright" content="Copyright (c) 2009 by {$modvars.ZConfig.sitename}"/>
 <meta name="revisit-after" content="1 days"/>
 <meta name="distribution" content="Global"/>
 <meta name="generator" content="zikula - http://zikula.com"/>
@@ -16,7 +16,7 @@
 <title>{pagegetvar name='title'}</title>
 <link rel="icon" href="{$imagepath}/icon.png" type="image/png"/>
 <link rel="shortcut icon" href="{$imagepath}/favicon.ico"/>
-<link rel="StyleSheet" href="{$themepath}/style/style.css" type="text/css"/>
+<link rel="stylesheet" href="{$themepath}/style/style.css" type="text/css"/>
 {pageaddvar name="javascript" value="javascript/ajax/prototype.js"}
 {pageaddvar name="javascript" value="javascript/ajax/scriptaculous.js?load=effects"}
 {pageaddvar name="javascript" value="javascript/ajax/lightboxXL.js"}
@@ -35,20 +35,20 @@
 
 				<div class="left" id="main">
 					<div id="main_content">
-                        {blockposition name=left}
+                        {blockposition name='left'}
                         <div class="col3 left" style='width:50%;'>
                             <div class="col3_content">
-                                {blockposition name=mainleft}
+                                {blockposition name='mainleft'}
                             </div>
                         </div>
                         <div class="col3 right" style='width:50%;'>
                             <div class="col3_content">
-                                {blockposition name=mainright} 
+                                {blockposition name='mainright'} 
                             </div>
                         </div>
                         <div class="clearer">&nbsp;</div>
                         {$maincontent}
-                        {blockposition name=center}
+                        {blockposition name='center'}
                     </div>
 			</div>
 				<div class="right" id="sidebar">
@@ -56,7 +56,7 @@
 					<div id="sidebar_content">
 					
 						
-{blockposition name=right} 
+{blockposition name='right'} 
 </div>
 
 				</div>
@@ -75,7 +75,7 @@
 
 			<div class="col3 left">
 				<div class="col3_content">
-{blockposition name=footleft} 
+{blockposition name='footleft'} 
 					
 
 				</div>
@@ -91,7 +91,7 @@
 
 			<div class="col3 right">
 				<div class="col3_content">
-{blockposition name=footright} 
+{blockposition name='footright'} 
 					
 
 				</div>
@@ -107,7 +107,7 @@
 	<div class="center_wrapper">
 
 		<div class="left">
-			Copyright &copy; 2001-{'Y'|date} {sitename} - {slogan}		</div>
+			Copyright &copy; 2001-{'Y'|date} {$modvars.ZConfig.sitename} - {$modvars.ZConfig.slogan}		</div>
 		<div class="right">
 			<a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a>&nbsp;Zikula Theme by<a href="http://www.postnuke-themes.de"> Charlie</a>
 		</div>
