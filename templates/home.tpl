@@ -19,7 +19,6 @@
 <link rel="stylesheet" href="{$themepath}/style/style.css" type="text/css"/>
 {pageaddvar name="javascript" value="javascript/ajax/prototype.js"}
 {pageaddvar name="javascript" value="javascript/ajax/scriptaculous.js?load=effects"}
-{pageaddvar name="javascript" value="javascript/ajax/lightboxXL.js"}
 
 </head>
 
@@ -47,8 +46,8 @@
                             </div>
                         </div>
                         <div class="clearer">&nbsp;</div>
-                        {$maincontent}
                         {blockposition name='center'}
+                        {$maincontent}
                     </div>
 			</div>
 				<div class="right" id="sidebar">

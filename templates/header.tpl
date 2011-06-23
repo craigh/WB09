@@ -34,10 +34,7 @@
 			<li><a href="{modurl modname="Users" type='user' func="logout"}">Logout</a></li>
 			<li><a href="{modurl modname="Web_Links" type='user' func='main'}">Links</a></li>
 		{else}
-		{pageaddvar name="javascript" value="javascript/ajax/prototype.js"}
-		{pageaddvar name="javascript" value="javascript/ajax/scriptaculous.js?load=effects"}
-		{pageaddvar name="javascript" value="`$themepath`/scripts/modalbox.js"}
-		{pageaddvar name="stylesheet" value="`$themepath`/style/modalbox.css"}
+            <li><a href="{modurl modname="Users" type='user' func="loginscreen"}">Login</a></li>
 			<li><a href="{modurl modname="Users" type='user' func="lostpassword"}">Lost Password?</a></li>
 			<li><a class="xWB_sb_last" href="{modurl modname="Users" type='user' func="register"}">New User? Sign Up!</a></li>
 		{/if}
@@ -49,7 +46,7 @@
 			<li><a href="mspodcasts/" style='padding: 6px;' title='Podcasts'><img src='{$themepath}/images/MSPodcast_32.png' alt='Podcasts'></a></li>
 			<li><a href="https://www.edline.net/Index.page" style='padding: 7px 8px 6px 8px;' title='Edline'><img src='{$themepath}/images/edline.png' alt='edline'></a></li>
 			{if $userloggedin}
-			<li><a href="{modurl modname="News" type='user' func="new"}" style='padding: 2px 8px 2px 8px' title='submit news story'><img src='{$themepath}/images/addnews.gif' alt='submit news story'></a></li>
+			<li><a href="{modurl modname="News" type='user' func="newitem"}" style='padding: 2px 8px 2px 8px' title='submit news story'><img src='{$themepath}/images/addnews.gif' alt='submit news story'></a></li>
 			{/if}
 		</ul>
 		

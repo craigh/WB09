@@ -1,0 +1,8 @@
+## YAML Override template
+## original/file.tpl: override/file.tpl
+---
+## system/Search/templates/search_block_search.tpl: themes/Andreas08/templates/modules/Search/search_block_search.tpl
+modules/Feeds/templates/block/displayfeed.tpl: themes/WB09/templates/modules/Feeds/block/displayfeed.tpl
+modules/News/templates/user/view.tpl: themes/WB09/templates/modules/News/user/view.tpl
+modules/News/templates/user/index.tpl: themes/WB09/templates/modules/News/user/index.tpl
+modules/News/templates/user/articlecontent.tpl: themes/WB09/templates/modules/News/user/articlecontent.tpl
