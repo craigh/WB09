@@ -4,7 +4,7 @@
 {foreach from=$feeditems item=feeditem}
     {assign var=feeditemlink value=$feeditem->get_link()}
     {assign var=feeditemtitle value=$feeditem->get_title()}
-        <li><a href="{$feeditemlink}" target="_blank">{$feeditemtitle|utf8decode}</a>
+        <li><a href="{$feeditemlink}" target="_blank">{$feeditemtitle}</a>
         </li>
 {/foreach}
 </ul>
