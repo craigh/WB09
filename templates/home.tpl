@@ -8,7 +8,7 @@
         <meta name="resource-type" content="document"/>
         <meta http-equiv="expires" content="0"/>
         <meta name="author" content="{$modvars.ZConfig.sitename}"/>
-        <meta name="copyright" content="Copyright (c) 2009 by {$modvars.ZConfig.sitename}"/>
+        <meta name="copyright" content="Copyright (c) {'Y'|date} by {$modvars.ZConfig.sitename}"/>
         <meta name="revisit-after" content="1 days"/>
         <meta name="distribution" content="Global"/>
         <meta name="generator" content="zikula - http://zikula.com"/>

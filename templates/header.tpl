@@ -1,20 +1,24 @@
-{checkpermission realm="0" component="::" instance="::" level="ACCESS_ADMIN" assign="admin"} 
+{checkpermission realm="0" component="::" instance="::" level="ACCESS_ADMIN" assign="admin"}
+{userloggedin assign='userloggedin'}
 <div id="header">
 	<div class="center_wrapper">
-		
 		<div id="toplinks">
 			<div id="toplinks_inner">
+                {if $userloggedin}
 				<a href="{modurl modname="Profile" type='user' func='main'}">My Account</a>
 				| <a href="{modurl modname="Users" type='user' func="logout"}">Logout</a>
+                {else}
+                <a href="{modurl modname="Users" type='user' func='login'}">Login</a>
+                {/if}
 				| <a href="{modurl modname="Pages" type='user' func="display" pageid="4" meid="-1"}">Contact/About</a>
-				| <a href="{modurl modname="Search" type='user' func='search'}">Search</a>
+				| <a href="{modurl modname="Search" type='user' func='form'}">Search</a>
 			</div>
 		</div>
 		<div class="clearer">&nbsp;</div>
 
 		<div id="site_title">
 			<h1><a href="index.php">{$modvars.ZConfig.sitename}</a></h1>
-			<p><i>{$modvars.ZConfig.slogan}</i></p>
+			<h5><em>{$modvars.ZConfig.slogan}</em></h5>
 		</div>
 	</div>
 </div>
