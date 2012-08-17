@@ -71,3 +71,4 @@
         </div>
     </body>
 </html>
+{pageaddvar name='stylesheet' value='themes/WB09/style/PostCalendar/wb09_jquery-overrides.css'}
