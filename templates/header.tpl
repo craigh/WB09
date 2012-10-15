@@ -34,8 +34,9 @@
 			<li><a href="{modurl modname="Content" type='user' func="view" pid="2"}">Parents</a></li>
 			<li><a href="{modurl modname="Downloads" type='user' func="view" category="526"}">Policies</a></li>
 			<li><a href="{modurl modname="Downloads" type='user' func='main'}">Downloads</a></li>
-			<li><a href="http://www.facebook.com/westernbands" style='padding: 6px 8px 5px 8px;' title='Westernbands on facebook'><img src='{$themepath}/images/icon_facebook.png' alt='facebook'></a></li>
-			<li><a href="http://www.youtube.com/westernbands" style='padding: 6px 8px 5px 8px;' title='Youtube westernbands channel'><img src='{$themepath}/images/tube.png' alt='youtube'></a></li>
+			<li><a href="http://www.facebook.com/westernbands" style='padding: 6px 8px 5px 8px;' title='Westernbands facebook page'><img src='{$themepath}/images/icon_facebook.png' alt='facebook'></a></li>
+			<li><a href="http://www.youtube.com/westernbands" style='padding: 6px 8px 5px 8px;' title='Westernbands Youtube channel'><img src='{$themepath}/images/tube.png' alt='youtube'></a></li>
+			<li><a href="http://www.twitter.com/westernbands" style='padding: 6px 8px 5px 8px;' title='Westernbands Twitter feed'><img src='{$themepath}/images/icon_twitter.png' alt='twitter'></a></li>
 			<li><a href="podcasts/" style='padding: 6px;' title='HS Podcasts'><img src='{$themepath}/images/HSPodcast_32.png' alt='Podcasts'></a></li>
 			<li><a href="mspodcasts/" style='padding: 6px;' title='MS Podcasts'><img src='{$themepath}/images/MSPodcast_32.png' alt='Podcasts'></a></li>
 			<li><a href="{modurl modname="Weblinks" type='user' func='main'}">Links</a></li>

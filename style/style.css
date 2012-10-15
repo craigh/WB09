@@ -322,6 +322,10 @@ img.right {margin: 0 0 15px 12px;}
 	font: normal 0.9em Verdana,sans-serif;
 	width: 820px;
 }
+.z-module-news, .z-homepage {
+    font-size: 1.1em;
+    line-height: 1.4em;    
+}
 
 #main ol, #main ul {margin: 0 0 1.2em 1.6em;}
 #main ul li {list-style: none;}
@@ -527,7 +531,7 @@ Login styling
 }
 .box_title_cal div,
 .box_title_sport div {
-	background: url('/modules/PostCalendar/pnimages/admin.gif') no-repeat;
+	background: url('../../../modules/PostCalendar/images/admin.gif') no-repeat;
 	margin:0;
 	padding:0;
 	position:absolute;
